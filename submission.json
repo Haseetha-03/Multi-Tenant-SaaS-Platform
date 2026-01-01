@@ -1,0 +1,39 @@
+{
+  "testCredentials": {
+    "superAdmin": {
+      "email": "superadmin@system.com",
+      "password": "Admin@123",
+      "role": "super_admin"
+    },
+    "tenants": [
+      {
+        "id": "tenant-demo",
+        "name": "Demo Company",
+        "subdomain": "demo",
+        "status": "active",
+        "subscriptionPlan": "pro",
+        "admin": {
+          "id": "admin-demo",
+          "email": "admin@demo.com",
+          "password": "Admin@123",
+          "role": "tenant_admin"
+        },
+        "users": [
+          {
+            "id": "user-demo-1",
+            "email": "user1@demo.com",
+            "password": "Admin@123",
+            "role": "user"
+          }
+        ],
+        "projects": [
+          {
+            "id": "project-demo-1",
+            "name": "Website Redesign",
+            "description": "Overhaul of the corporate website"
+          }
+        ]
+      }
+    ]
+  }
+}
